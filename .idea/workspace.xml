@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a84ef79-a5c2-47b5-9706-24cc81d10cb6" name="Changes" comment="Changed screen dimensions to fit aspect ration to 16:9">
-      <change afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
+    <list default="true" id="3a84ef79-a5c2-47b5-9706-24cc81d10cb6" name="Changes" comment="Completed player functionality">
+      <change afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -94,13 +94,22 @@
       <option name="project" value="LOCAL" />
       <updated>1724231154278</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed player functionality">
+      <option name="closed" value="true" />
+      <created>1724232811912</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724232811912</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Initiation" />
     <MESSAGE value="Created screen for game play" />
     <MESSAGE value="Changed screen dimensions to fit aspect ration to 16:9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed screen dimensions to fit aspect ration to 16:9" />
+    <MESSAGE value="Completed player functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed player functionality" />
   </component>
 </project>
