@@ -1,3 +1,4 @@
+import random
 from turtle import Screen
 import time
 from player import Player
@@ -26,12 +27,11 @@ car_manager = CarManager()
 scoreboard = ScoreBoard()
 
 is_game_on = True
-loop_count = 0
 while is_game_on:
     screen.update()
     time.sleep(SCREEN_UPDATE_TIME)
 
-    if loop_count % 6 == 0:
+    if random.randint(1,6) == 1:
         car_manager.generate_car()
 
     car_manager.move_cars()
@@ -41,6 +41,5 @@ while is_game_on:
         player.reset_player()
         car_manager.update_speed()
 
-    loop_count += 1
 
 screen.exitonclick()
