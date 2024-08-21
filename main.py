@@ -32,7 +32,7 @@ while is_game_on:
     time.sleep(SCREEN_UPDATE_TIME)
 
     if loop_count % 6 == 0:
-        car_manager.generate_cars()
+        car_manager.generate_car()
 
     car_manager.move_cars()
 

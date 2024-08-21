@@ -31,7 +31,7 @@ class CarManager:
         self.cars = []
         self.speed = CAR_STARTING_MOVE_SPEED
 
-    def generate_cars(self):
+    def generate_car(self):
         random_y_position = random.randint(CAR_LOWER_Y_LIMIT, CAR_UPPER_Y_LIMIT)
         print(CAR_LOWER_Y_LIMIT)
         print(CAR_UPPER_Y_LIMIT)
