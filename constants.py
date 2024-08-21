@@ -36,3 +36,5 @@ CAR_UPPER_Y_LIMIT = round(0.45 * SCREEN_HEIGHT) - 35
 CAR_LOWER_Y_LIMIT = -CAR_UPPER_Y_LIMIT
 CAR_STARTING_MOVE_SPEED = 5  # car takes 5 steps forward in level 1
 CAR_MOVE_SPEED_INCREMENT = 10  # increment in number of steps taken by car as level increases
+
+CAR_PLAYER_COLLISION_DISTANCE = 20

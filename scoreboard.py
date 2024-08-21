@@ -20,7 +20,7 @@ class ScoreBoard(Turtle):
 
     def game_over(self):
         self.goto(x=0, y=0)
-        self.write(arg="Game Over", move=False, align=SCOREBOARD_ALIGNMENT, font=SCOREBOARD_FONT)
+        self.write(arg="GAME OVER", move=False, align=SCOREBOARD_ALIGNMENT, font=SCOREBOARD_FONT)
 
     def increase_level(self):
         self.level += 1

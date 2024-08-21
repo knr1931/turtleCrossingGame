@@ -33,8 +33,6 @@ class CarManager:
 
     def generate_car(self):
         random_y_position = random.randint(CAR_LOWER_Y_LIMIT, CAR_UPPER_Y_LIMIT)
-        print(CAR_LOWER_Y_LIMIT)
-        print(CAR_UPPER_Y_LIMIT)
         new_car = Car(random_y_position)
         self.cars.append(new_car)
 
