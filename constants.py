@@ -1,5 +1,5 @@
 SCREEN_WIDTH = 800
-SCREEN_HEIGHT = 600
+SCREEN_HEIGHT = 450
 SCREEN_UPDATE_TIME = 0.1  # Measured in seconds
 
 CAR_COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
